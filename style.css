@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    width:1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header{
+    float: left;
+}
+.heading{
+    background-color: green;
+    margin-bottom: 10px;
+}
+.magazine{
+    margin-bottom: 10px;
+}
+nav a{
+    float: right;
+    margin-top: 8px;
+    margin-right: 30px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-transform: uppercase;
+    color: black;
+}
+.emty{
+    clear: both;
+}
+.head{
+    margin-top: 50px;
+}
+h2,h3{
+    color: blue;
+
+}
+.footer{
+    background-color: blueviolet;
+    text-align: center;
+    clear: both;
+    margin-top: 100px;
+    padding: 5px;
+}
+.article{
+    float: left;
+    width: 600px;
+}
+.aside{
+    background-color: rgb(255, 0, 128);
+    float: right;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 850px;
+    list-style: none;
+}
